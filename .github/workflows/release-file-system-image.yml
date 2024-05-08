@@ -15,3 +15,7 @@ jobs:
       contents: write
       # To download GitHub Packages within action
       repository-projects: read
+    with:
+      strip: "demo, doc, examples, help, html, include, tests, vignette"
+      packages: "Rcpp, RcppArmadillo"
+      
